@@ -1,0 +1,46 @@
+#secaoBanner {
+    height: 95vh;
+    padding-top: 90px;
+    display: flex;
+    position: relative;
+}
+
+#imagemDeFundo {
+    width: 50%;
+    background-image: url('../../assets/banner.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.fundo-modo-claro {
+    background-color: #fff;
+}
+
+.secaoBanner-textos {
+    width: 50%;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fafbfc;
+}
+
+.secaoBanner-textos p {
+    font-size: 12px;
+    letter-spacing: 5px;
+    font-weight: 500;
+    color: #022144;
+}
+
+.secaoBanner-textos h2 {
+    font-size: 50px;
+    font-weight: 500;
+    color: #022144;
+}
+
+.secaoBanner-textos span {
+    font-size: 50px;
+    font-weight: 900;
+    color: #022144;
+}
