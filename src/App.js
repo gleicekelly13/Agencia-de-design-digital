@@ -4,6 +4,7 @@ import './App.css';
 import Topo from "./componentes/Topo";
 import SecaoBanner from "./componentes/SecaoBanner";
 import SecaoExperienciaTrabalho from "./componentes/SecaoExperienciaTrabalho";
+import Rodape from "./componentes/Rodape";
 
 export default function App() {
   return (
@@ -12,7 +13,9 @@ export default function App() {
 
       <SecaoBanner/>
 
-      <SecaoExperienciaTrabalho/>      
+      <SecaoExperienciaTrabalho/>    
+
+      <Rodape/>  
     </div>
   );
 }
