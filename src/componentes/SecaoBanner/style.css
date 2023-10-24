@@ -1,6 +1,6 @@
 #secaoBanner {
     height: 95vh;
-    padding-top: 90px;
+    padding-top: 85px;
     display: flex;
     position: relative;
 }
@@ -15,6 +15,10 @@
 
 .fundo-modo-claro {
     background-color: #fff;
+}
+
+.fundo-modo-escuro {
+    background-color: #252525;
 }
 
 .secaoBanner-textos {

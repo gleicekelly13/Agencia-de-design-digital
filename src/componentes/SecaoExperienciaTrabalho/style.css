@@ -4,11 +4,15 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #f6f8fc;
+    
 }
 
 .secao-modo-claro {
     background-color: #f6f8fc;
+}
+
+.secao-modo-escuro {
+    background-color: #393838;
 }
 
 #container-texto {
@@ -47,6 +51,10 @@
 
 .container-texto-modo-claro h2 {
     color: #32333c;
+}
+
+.container-texto-modo-escuro {
+    color: #cccccc;
 }
 
 .container-texto-modo-claro p {

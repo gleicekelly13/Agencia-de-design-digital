@@ -9,7 +9,7 @@ import iconeGooglePlus from '../../assets/google-plus.png';
 
 export default function Rodape () {
     return (
-        <footer className='rodape-modo-claro'>
+        <footer className='rodape-modo-escuro'>
             <img src={Logo} alt='logomarca'/>
             <p className='paragrafo'>Ajudamos a criar uma personalidade digital construindo sua marca no ambiente online utilizando estratégias,
             ferramentas e tecnologias personalizadas.

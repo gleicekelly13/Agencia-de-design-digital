@@ -3,7 +3,7 @@ import './style.css';
 export default function SecaoBanner () {
     return (
         <section id='secaoBanner'>
-            <div id='imagemDeFundo' className='fundo-modo-claro'></div>
+            <div id='imagemDeFundo' className='fundo-modo-escuro'></div>
             <div className='secaoBanner-textos'>
                 <p>BRANDING / UI / UX / TECNOLOGIA</p>
                 <h2>Agência de Branding</h2>

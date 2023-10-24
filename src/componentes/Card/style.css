@@ -22,8 +22,21 @@
     line-height: 26px;
 }
 
+.card-modo-escuro {
+    background-color: #393838;
+    border: 1px solid #ffffff0d;
+}
+
 .card-modo-claro p {
     color: #8a8fa3;
+}
+
+.card-modo-escuro p {
+    color: #9f9f9f;
+}
+
+.card-modo-escuro h4 {
+    color: #ffffff;
 }
 
 .primeiro-paragrafo {

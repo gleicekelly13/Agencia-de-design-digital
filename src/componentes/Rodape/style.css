@@ -10,6 +10,10 @@ footer {
     background-color: #fff;
 }
 
+.rodape-modo-escuro {
+    background-color: #252525;
+}
+
 .paragrafo {
     padding: 0 20px;
     font-size: 18px;
@@ -43,6 +47,7 @@ footer {
     color: #8a8f83;
     padding: 20px 0;
     text-align: center;
+    border: 1px solid #ffffff0d;
 }
 
 .copyright span {
