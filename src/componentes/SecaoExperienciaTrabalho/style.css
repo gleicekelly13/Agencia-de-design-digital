@@ -63,3 +63,10 @@
     max-width: 1024px;
     margin: 0 auto;
 }
+
+
+@media screen and (max-width: 768px) {
+    .container-cards {
+        flex-direction: column;
+    }
+}

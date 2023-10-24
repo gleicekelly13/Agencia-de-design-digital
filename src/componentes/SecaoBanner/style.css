@@ -44,3 +44,14 @@
     font-weight: 900;
     color: #022144;
 }
+
+
+@media screen and (max-width: 768px) {
+    #imagemDeFundo {
+        display: none;
+    }
+
+    .secaoBanner-textos {
+        width: 100%;
+    }
+}
