@@ -4,12 +4,12 @@ import iconeSol from '../../assets/sun.png';
 
 import './style.css';
 
-export default function Topo () {
+export default function Topo (props) {
     return (
-        <header className='topo-modo-escuro'>
+        <header className={props.ehTemaClaro ? 'topo-modo-claro' : 'topo-modo-escuro'}>
             <img className="logo" src={Logo} alt='logomarca'/>
-            <button className='btn-modo-escuro'>
-                <img className='iconesBtn' src={iconeSol} alt='icone-sol'/>
+            <button onClick={props.alterarTema} className={props.ehTemaClaro ? 'btn-modo-claro' : 'btn-modo-escuro'}>
+                <img className='iconesBtn' src={props.ehTemaClaro ? iconeLua : iconeSol} alt='icone-sol'/>
             </button>
         </header>
     );

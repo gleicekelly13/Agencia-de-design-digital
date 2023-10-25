@@ -7,9 +7,9 @@ import iconeDribble from '../../assets/dribble.png';
 import iconeBehance from '../../assets/behance.png';
 import iconeGooglePlus from '../../assets/google-plus.png';
 
-export default function Rodape () {
+export default function Rodape (props) {
     return (
-        <footer className='rodape-modo-escuro'>
+        <footer className={props.ehTemaClaro ? 'rodape-modo-claro' : 'rodape-modo-escuro'}>
             <img src={Logo} alt='logomarca'/>
             <p className='paragrafo'>Ajudamos a criar uma personalidade digital construindo sua marca no ambiente online utilizando estratégias,
             ferramentas e tecnologias personalizadas.

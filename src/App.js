@@ -1,4 +1,4 @@
-import React from "react";
+import { useState } from "react";
 import './App.css';
 
 import Topo from "./componentes/Topo";
@@ -7,15 +7,27 @@ import SecaoExperienciaTrabalho from "./componentes/SecaoExperienciaTrabalho";
 import Rodape from "./componentes/Rodape";
 
 export default function App() {
+  
+  const [ehTemaClaro, setEhTemaClaro] = useState(true);
+
+  const alterarTema = () => {
+    setEhTemaClaro(!ehTemaClaro);
+    /*if(ehTemaClaro === "modo-claro") {
+      setEhTemaClaro("modo-escuro");
+    } else {
+      setEhTemaClaro("modo-claro");
+    }*/
+  }
+
   return (
     <div className="App">
-      <Topo/>
+      <Topo alterarTema={alterarTema} ehTemaClaro={ehTemaClaro}/>
 
-      <SecaoBanner/>
+      <SecaoBanner ehTemaClaro={ehTemaClaro}/>
 
-      <SecaoExperienciaTrabalho/>    
+      <SecaoExperienciaTrabalho ehTemaClaro={ehTemaClaro}/>    
 
-      <Rodape/>  
+      <Rodape ehTemaClaro={ehTemaClaro}/>  
     </div>
   );
 }

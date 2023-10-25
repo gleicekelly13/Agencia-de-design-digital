@@ -1,11 +1,11 @@
 import Card from '../Card';
 import './style.css';
 
-export default function SecaoExperienciaTrabalho () {
+export default function SecaoExperienciaTrabalho (props) {
     return (
-        <section id='secaoXpTrabalho' className='secao-modo-escuro'>
-            <div id='container-texto' className='container-texto-modo-escuro'>
-                <h2>Experiências de Trabalho</h2>
+        <section id='secaoXpTrabalho' className={props.ehTemaClaro ? 'secao-modo-claro' : 'secao-modo-escuro'}>
+            <div id='container-texto' className={props.ehTemaClaro ? 'container-texto-modo-claro' : 'container-texto-modo-escuro'}>
+                <h2>Experiências de Trabalho</h2> 
                 <p>Há mais de 10 anos no mercado de Branding, Desing Gráfico, Criação de Sites e Marketing Digital,
                 nos empenhamos diariamente para entregar resultados que tragam impacto aos nossos clientes.</p>
             </div>
