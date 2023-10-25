@@ -12,11 +12,11 @@ export default function App() {
 
   const alterarTema = () => {
     setEhTemaClaro(!ehTemaClaro);
-    /*if(ehTemaClaro === "modo-claro") {
-      setEhTemaClaro("modo-escuro");
+    /*if(ehTemaClaro === true) {
+      setEhTemaClaro(false);
     } else {
-      setEhTemaClaro("modo-claro");
-    }*/
+      setEhTemaClaro(true);
+    } */
   }
 
   return (
