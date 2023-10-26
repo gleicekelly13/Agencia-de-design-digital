@@ -1,4 +1,4 @@
-#card {
+.card {
     width: 33%;
     padding: 70px 30px;
     display: flex;
@@ -6,28 +6,25 @@
     cursor: pointer;
 }
 
-#card:hover {
+.card:hover {
     background-color: #feb633;
     transition: all 1s;
 }
 
-#card h4 {
+.card h4 {
     font-size: 22px;
     margin-bottom: 5px;
 }
 
-#card p {
+.card p {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
 }
 
-.card-modo-claro {
-    background-color: #f6f8fc;
-}
 
 .card-modo-escuro {
-    background-color: #393838;
+    
     border: 1px solid #ffffff0d;
 }
 
@@ -53,7 +50,7 @@
 
 
 @media screen and (max-width: 768px) {
-    #card {
+    .card {
         width: auto;
     }
 }

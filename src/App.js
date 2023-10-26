@@ -4,6 +4,7 @@ import './App.css';
 import Topo from "./componentes/Topo";
 import SecaoBanner from "./componentes/SecaoBanner";
 import SecaoExperienciaTrabalho from "./componentes/SecaoExperienciaTrabalho";
+import Card from "./componentes/Card";
 import Rodape from "./componentes/Rodape";
 
 export default function App() {
@@ -26,6 +27,8 @@ export default function App() {
       <SecaoBanner ehTemaClaro={ehTemaClaro}/>
 
       <SecaoExperienciaTrabalho ehTemaClaro={ehTemaClaro}/>    
+
+      <Card ehTemaClaro={ehTemaClaro}/>
 
       <Rodape ehTemaClaro={ehTemaClaro}/>  
     </div>

@@ -10,7 +10,7 @@ export default function SecaoExperienciaTrabalho (props) {
                 nos empenhamos diariamente para entregar resultados que tragam impacto aos nossos clientes.</p>
             </div>
             <div className='container-cards limitar-secao'>
-                <Card
+                <Card 
                     data = "JUNHO 2012 - 2016"
                     titulo = "Web Designer"
                     empresa = "Pied Piper StartUp."
