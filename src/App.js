@@ -12,7 +12,7 @@ export default function App() {
 
   const alterarTema = () => {
     setEhTemaClaro(!ehTemaClaro);
-    /*if(ehTemaClaro === true) {
+    /*if(ehTemaClaro) {
       setEhTemaClaro(false);
     } else {
       setEhTemaClaro(true);
@@ -33,3 +33,4 @@ export default function App() {
 }
 
 
+/*if(ehTemaClaro) é o msmo de if(ehTemaClaro === true) */
