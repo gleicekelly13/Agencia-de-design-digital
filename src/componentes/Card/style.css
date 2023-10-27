@@ -22,9 +22,12 @@
     line-height: 26px;
 }
 
+.card-modo-claro {
+    background-color: #f6f8fc;
+}
 
 .card-modo-escuro {
-    
+    background-color: #393838;
     border: 1px solid #ffffff0d;
 }
 
