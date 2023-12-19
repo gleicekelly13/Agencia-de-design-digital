@@ -16,6 +16,15 @@
 <br>
 
 ## :iphone: Mobile design
+<br>
+<div align = "center">
+<img src = "https://github.com/gleicekelly13/Agencia-de-design-digital/assets/80974593/d7c7e7ce-e249-435d-943f-75a9ee59d275" width = "300" />
+</div>
+<br>
+
+<div align = "center">
+<img src = "https://github.com/gleicekelly13/Agencia-de-design-digital/assets/80974593/b7daf819-c8e9-4e6d-9c23-285bea31947e" width = "300" />
+</div>
 
 # Getting Started with Create React App
 
