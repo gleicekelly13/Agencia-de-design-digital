@@ -4,6 +4,15 @@
 <br>
 
 ## :desktop_computer: Desktop design
+<br>
+<div align = "center">
+<img src = "https://github.com/gleicekelly13/Agencia-de-design-digital/assets/80974593/decc131e-a525-4a54-8213-d2cdd8814d23" width = "500" />
+</div>
+<br>
+
+<div align = "center">
+<img src = "https://github.com/gleicekelly13/Agencia-de-design-digital/assets/80974593/98bebf43-2159-45b2-9808-a09d66306734" width = "500" />
+</div>
 
 # Getting Started with Create React App
 
