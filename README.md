@@ -3,6 +3,8 @@
 <p>Projeto proposto no curso de React JS da Devmedia, é uma página de uma agência de design, que possui múltiplos componentes.</p>
 <br>
 
+## :desktop_computer: Desktop design
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
