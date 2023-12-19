@@ -1,4 +1,7 @@
 <h1 align="center">Agência de design digital</h1>
+<h2 align="center">:page_facing_up: Descrição do projeto</h2>
+<p>Projeto proposto no curso de React JS da Devmedia, é uma página de uma agência de design, que possui múltiplos componentes.</p>
+<br>
 
 # Getting Started with Create React App
 
