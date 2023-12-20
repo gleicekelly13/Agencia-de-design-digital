@@ -39,6 +39,14 @@
 <br>
 
 <h2 align="center"> :dart: Objetivo de aprendizado/O que aprendi </h2>
+<ul>
+  <li>Componetização da página: O objetivo foi agrupar o código em cinco componentes;</li>
+  <li>Utilizar o props para enviar dados de um componente pai para um componente filho;</li>
+  <li>Utilizar o props para enviar um state para um componente filho;</li>
+  <li>Manipular um state dentro de um componente filho;</li>
+  <li>Criar uma funcionalidade que permite alterar o tema de todos os componentes da página através da ação do usuário;</li>
+  <li>Aplicar a responsividade na página, fazendo-a se adaptar a diversas resoluções de tela.</li>
+</ul>
 
 # Getting Started with Create React App
 
