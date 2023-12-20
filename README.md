@@ -47,6 +47,11 @@
   <li>Criar uma funcionalidade que permite alterar o tema de todos os componentes da página através da ação do usuário;</li>
   <li>Aplicar a responsividade na página, fazendo-a se adaptar a diversas resoluções de tela.</li>
 </ul>
+<br>
+
+<h2 align="center"> :file_folder: Acesso ao projeto </h2>
+<p>Você pode acessar o projeto clicando aqui: https://agencia-design-digital-woad.vercel.app/ </p>
+<br>
 
 # Getting Started with Create React App
 
