@@ -26,6 +26,8 @@
 <img src = "https://github.com/gleicekelly13/Agencia-de-design-digital/assets/80974593/b7daf819-c8e9-4e6d-9c23-285bea31947e" width = "300" />
 </div>
 
+<h2 align="center">:hourglass: Status do projeto </h2>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
