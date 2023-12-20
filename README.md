@@ -36,6 +36,9 @@
 <p>A funcionalidade do site está atrelada a um botão no topo da página. Esse botão recebe um evento de clique que é acionado com o clique do usuário, ou seja, quando o usuário clica no botão todo o tema da página será alterado de claro para escuro, e ao clicar mais uma vez o tema da página será alterado de escuro para claro. O ícone dentro do botão também é alterado com o evento de clique.</p>
 
 <p>A página é responsiva, se adaptando a diversas resoluções de tela.</p>
+<br>
+
+<h2 align="center"> :dart: Objetivo de aprendizado/O que aprendi </h2>
 
 # Getting Started with Create React App
 
