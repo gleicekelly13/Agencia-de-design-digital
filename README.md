@@ -32,6 +32,11 @@
 <h4>:white_check_mark: Mobile - FINALIZADO :white_check_mark: </h4>
 <br>
 
+<h2 align="center">:hammer: Funcionalidades do projeto </h2>
+<p>A funcionalidade do site está atrelada a um botão no topo da página. Esse botão recebe um evento de clique que é acionado com o clique do usuário, ou seja, quando o usuário clica no botão todo o tema da página será alterado de claro para escuro, e ao clicar mais uma vez o tema da página será alterado de escuro para claro. O ícone dentro do botão também é alterado com o evento de clique.</p>
+
+<p>A página é responsiva, se adaptando a diversas resoluções de tela.</p>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
